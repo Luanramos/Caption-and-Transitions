@@ -23,7 +23,7 @@ li { display: inline-block; }
 .caption {
 	color: #fff;
 	padding: 10px;
-	transition: 0.6s;
+	transition: 0.6s ease;
 	line-height: 140%;
 	position: absolute;
 	background: rgba(0, 0, 0, 0.8);
