@@ -75,6 +75,23 @@
 				</div>
 			</div>	
 		</li>
+		<li>
+			<div class="box middle">
+					
+				<figure>
+					<img src="images/mad.jpg" height="300" width="320" alt="">
+				</figure>
+
+				<div class="caption">
+					<p>
+						Mussum ipsum cacilds, vidis litro abertis. 
+						Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, 
+						in elementis mé pra quem é amistlatim. 
+						Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+					</p>
+				</div>
+			</div>	
+		</li>
 	</ul>
 
 </body>

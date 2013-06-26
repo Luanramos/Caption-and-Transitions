@@ -54,3 +54,13 @@ li { display: inline-block; }
 	width: 50%;
 }
 .right:hover .caption { right: 0; }
+
+/** Caption middle **/
+.middle .caption {
+	top: 0;
+	left: 0;
+	height: 97%;
+	opacity: 0;
+	visibility: hidden;
+}
+.middle:hover .caption { opacity: 1; visibility: visible; }
