@@ -1,3 +1,33 @@
 body {
-	background: #eee;
+	background: #F7F8FA;
+}
+
+
+
+$container: 1200px;
+
+
+// container
+.container {
+	width: $container;
+	margin: 0 auto;
+}
+
+// header
+#header {
+	height: 75px;
+	background: #EBEDEF;
+	border-top: 3px solid #00D53E;
+}
+
+// container wrap
+#wrapper-content {
+	padding: 30px 0;
+}
+
+// footer
+#footer {
+	height: 75px;
+	background: #192C35;
+	border-bottom: 8px solid #021518;
 }

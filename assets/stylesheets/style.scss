@@ -2,7 +2,10 @@
 
 
 // Structure
+@import "structure/reset";			// reset
+@import "structure/percentual";		// percentual
 @import "structure/layout";			// layout
+@import "structure/card";			// card
 
 // Examples
 @import "example-one/example-one";			//  Example One
