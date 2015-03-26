@@ -1,16 +1,16 @@
+.wrap {
+	display: table;
+	margin: 0 auto;
+}
 .card {
 	float: left;
-	min-height: 250px;
+	width: 450px;
+	height: 300px;
 	background: #00A4DD;
-	margin: 
-		0 
-		perc( 15px , $container )
-		perc( 15px , $container )
-		0;
-	width: perc( 288px , $container );
+	margin: 0 20px 0 0;
 	
 	img { vertical-align: middle; }
-	&:nth-child(4n+4) {
+	&:nth-child(2n+2) {
 		margin-right: 0;
 	}
 }
