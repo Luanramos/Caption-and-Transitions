@@ -10,8 +10,8 @@ $container: 1200px;
 
 // container
 .container {
-	width: $container;
 	margin: 0 auto;
+	max-width: $container;
 }
 
 .forkme {
