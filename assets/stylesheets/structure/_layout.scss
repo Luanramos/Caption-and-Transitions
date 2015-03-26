@@ -1,5 +1,6 @@
 body {
 	background: #F7F8FA;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 
@@ -16,8 +17,15 @@ $container: 1200px;
 // header
 #header {
 	height: 75px;
+	line-height: 75px;
 	background: #EBEDEF;
+	text-align: center;
 	border-top: 3px solid #00D53E;
+}
+
+.branding {
+	color: #2E3E61;
+	font-size: 30px;
 }
 
 // container wrap

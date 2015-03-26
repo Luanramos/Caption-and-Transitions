@@ -1,0 +1,32 @@
+// Example 
+.example-one {
+	
+	.card {
+
+		* {
+			@include transition( transform 0.4s );
+		}
+
+		&:hover, &:focus {
+			img {
+				@include transition( transform 0.8s );
+				@include transform( rotate( 10deg ) scale( 1.5 , 1.5 ) );
+			}
+			figcaption {
+				@include transform( translateY(0) );
+			}
+		}
+
+		figcaption {
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			padding: 20px;
+			display: block;
+			color: #ffffff;
+			position: absolute;
+			background: #2E3E61;
+			@include transform( translateY(100%) );
+		}
+	}
+}
