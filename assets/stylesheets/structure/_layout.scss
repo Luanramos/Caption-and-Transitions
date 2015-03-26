@@ -14,19 +14,46 @@ $container: 1200px;
 	margin: 0 auto;
 }
 
-// header
-#header {
-	height: 75px;
-	line-height: 75px;
-	background: #EBEDEF;
-	text-align: center;
-	border-top: 3px solid #00D53E;
+.forkme {
+	top: 3px;
+	left: 0;
+	width: 138px;
+	height: 136px;
+	position: absolute;
+	text-indent: -99999px;
+	background: image-url( "fork.png" );
 }
 
+// header
+#header {
+	text-align: center;
+	background: #EBEDEF;
+	padding: 20px 0 18px 0;
+	border-top: 3px solid #00A885;
+}
 .branding {
 	color: #2E3E61;
-	font-size: 30px;
+	font-size: 32px;
+	line-height: 100%;
+	margin-bottom: 10px;
 }
+nav { 
+	display: table;
+	margin: 0 auto;
+	margin: 20px auto -10px auto; 
+}
+
+.button {
+	float: left;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	margin: 0 5px;
+	padding: 10px 25px;
+	background: #00A885;
+	@include border-radius(5px);
+}
+
 
 // container wrap
 #wrapper-content {
