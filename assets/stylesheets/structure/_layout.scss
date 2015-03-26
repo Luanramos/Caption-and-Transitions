@@ -56,9 +56,19 @@ nav {
 
 
 // container wrap
-#wrapper-content {
+.box {
+	background: #363849;
 	padding: 30px 0;
+	overflow: hidden;
+	.card { margin-bottom: 0; }
+	.title {
+		font-size: 30px;
+		color: #fff;
+		margin-bottom: 20px;
+		text-align: center;
+	}
 }
+
 .illustration {
 	margin: 0 auto;
 	display: table;
@@ -67,10 +77,10 @@ nav {
 }
 .avatar {
     display: table;
-    margin: 0 auto 10px auto;
     font-size: 12px;
     min-width: 140px;
     line-height: 30px;
+    margin: 40px auto 10px auto;
 
 	img { 
 		float: right;
