@@ -10,7 +10,7 @@ $container: 1200px;
 
 // container
 .container {
-	width: $container;
+	max-width: $container;
 	margin: 0 auto;
 }
 
