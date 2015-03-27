@@ -1,0 +1,96 @@
+// Example 
+.example-two {
+	
+	.card {
+
+		* {
+			@include transition( transform 0.4s );
+		}
+
+		&:hover, &:focus {
+			img {
+				@include transform( translateY(-50px) );
+			}
+			figcaption {
+				@include transform( translateY(0) );
+			}
+		}
+
+		figcaption {
+			bottom: 0;
+			width: 100%;
+			padding: 20px;
+			display: block;
+			color: #ffffff;
+			position: absolute;
+			background: #2E3E61;
+			@include transform( translateY(100%) );
+		}
+
+
+		// Top effect
+		&.top {
+
+			figcaption {
+				top: 0;
+				bottom: auto;
+				@include transform( translateY(-100%) );
+			}
+
+			&:hover, &:focus {
+				img {
+					@include transform( translateY( 50px ) );
+				}
+				figcaption {
+					@include transform( translateY( 0 ) );					
+				}
+			}
+
+		}
+			
+		&.left {
+
+			figcaption {
+				top: 0;
+				left: 0;
+				width: 30%;
+				height: 100%;
+				bottom: auto;
+				@include transform( translateX( -100% ) );
+			}
+
+			&:hover, &:focus {
+				img {
+					@include transform( translateX( 30% ) );
+				}
+				figcaption {
+					@include transform( translateX( 0 ) );		
+				}
+			}
+
+		}
+
+		&.right {
+
+			figcaption {
+				top: 0;
+				right: 0;
+				width: 30%;
+				height: 100%;
+				bottom: auto;
+				@include transform( translateX( 100% ) );
+			}
+
+			&:hover, &:focus {
+				img {
+					@include transform( translateX( -30% ) );
+				}
+				figcaption {
+					@include transform( translateX( 0 ) );		
+				}
+			}
+
+		}
+
+	}
+}

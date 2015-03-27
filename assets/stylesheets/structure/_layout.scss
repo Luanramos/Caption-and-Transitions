@@ -10,6 +10,7 @@ $container: 1200px;
 
 // container
 .container {
+	max-width: $container;
 	margin: 0 auto;
 	max-width: $container;
 }
@@ -60,7 +61,7 @@ nav {
 	background: #363849;
 	padding: 30px 0;
 	overflow: hidden;
-	.card { margin-bottom: 0; }
+	
 	.title {
 		font-size: 30px;
 		color: #fff;
