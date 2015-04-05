@@ -14,7 +14,7 @@
 	img { vertical-align: middle; }
 	&:nth-child(2n+2) {	margin-right: 0; }
 
-	figcaption {
+	figcaption, .description {
 		bottom: 0;
 		width: 100%;
 		padding: 20px;
@@ -23,6 +23,12 @@
 		min-height: 50px;
 		position: absolute;
 		background: #2E3E61;
+	}
+
+	.title {
+		font-size: 25px;
+		text-align: left;
+		font-weight: normal;
 	}
 
 }
