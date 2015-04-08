@@ -23,3 +23,6 @@
 @function col($columns) {
   @return ($columns * $GRID_COLUMN_WIDTH) + (($columns - 1) * $GRID_GUTTER);
 }  
+@mixin animation($content) {
+  @include experimental(animation, $content, -webkit, -moz, not -o, not -ms, official);
+}
